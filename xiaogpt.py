@@ -368,7 +368,7 @@ class MiGPT:
                         # drop 帮我回答
                         query = query.replace(KEY_WORD, "")
 
-                        print('-'*20)
+                        print('-' * 20)
                         print("问题：" + query + "？")
 
                         query = f"{query}，{PROMPT}"
